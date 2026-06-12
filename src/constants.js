@@ -17,6 +17,7 @@ import expressjsLogo from './assets/tech_logo/express.png';
 import mysqlLogo from './assets/tech_logo/mysql.png';
 import mongodbLogo from './assets/tech_logo/mongodb.png';
 import firebaseLogo from './assets/tech_logo/firebase.png';
+import drizzleLogo from './assets/tech_logo/drizzle_logo.png';
 import cLogo from './assets/tech_logo/c.png';
 import cppLogo from './assets/tech_logo/cpp.png';
 import javaLogo from './assets/tech_logo/java.png';
@@ -40,6 +41,8 @@ import excelLogo from './assets/tech_logo/excel.png';
 import webverseLogo from './assets/company_logo/webverse_logo.png';
 import agcLogo from './assets/company_logo/agc_logo.png';
 import newtonschoolLogo from './assets/company_logo/newtonschool_logo.png';
+import neuzifyLogo from './assets/company_logo/neuzify_logo.png';
+import rocketLogo from './assets/company_logo/rocket_logo.png';
 
 // Education Section Logo's
 import bsaLogo from './assets/education_logo/bsa_logo.png';
@@ -85,7 +88,7 @@ export const SkillsInfo = [
       { name: 'Express JS', logo: expressjsLogo },
       { name: 'MySQL', logo: mysqlLogo },
       { name: 'MongoDB', logo: mongodbLogo },
-      // { name: 'Firebase', logo: firebaseLogo },
+      { name: 'Drizzle ORM', logo: drizzleLogo },
       { name: 'PostgreSQL', logo: postgreLogo },
     ],
   },
@@ -136,54 +139,32 @@ export const SkillsInfo = [
   export const experiences = [
     {
       id: 0,
-      img: glaLogo,
-      role: "5G Antenna Design Intern",
-      company: "ECE Department, IGDTUW",
-      date: "June 2024 - July 2024",
-      desc: "Completed a six-week internship focused on Augmented Reality (AR) and Virtual Reality (VR), gaining hands-on experience with tools such as A-Frame, Blender, MagicaVoxel, and Unity. Explored the practical implementation of these tools to develop immersive VR projects. Collaborated closely with team members, enhancing communication and team management skills through group-based project development.",
+      img: neuzifyLogo,
+      role: "Software Developer Intern",
+      company: "Neuzify",
+      date: "May 2025 - July 2025",
+      desc: "Built a real-time collaborative filtering system analyzing 10,000+ users' engagement data and created a responsive dashboard to deliver personalized newsletter recommendations to users.",
       skills: [
-        "ANSYS HFSS",
-        "Excel",
-        "Origin Pro",
-        "Microstrip Patch Antenna Design",
-        "S-parameter Analysis",
-        "Z-parameter",
-        "Antenna Theory",
+        "React.js",
+        "Tailwind CSS",
+        "Python",
+        "TensorFlow",
+        "Scikit-learn",
       ],
     },
     {
       id: 1,
-      img: glaLogo,
-      role: "Metaverse- Virtual Reality Intern",
-      company: "IT Department, IGDTUW",
-      date: "June 2023 - July 2023",
-      desc: "Completed a six-week internship focused on Augmented Reality (AR) and Virtual Reality (VR), gaining hands-on experience with tools such as A-Frame, Blender, MagicaVoxel, and Unity. Explored the practical implementation of these tools to develop immersive VR projects. Collaborated closely with team members, enhancing communication and team management skills through group-based project development.",
+      img: rocketLogo,
+      role: "Full Stack Developer Intern",
+      company: "Rocket Incense",
+      date: "May 2024 - July 2024",
+      desc: "Built and maintained a full-stack e-commerce platform using React.js, Node.js, and Tailwind CSS, delivering product catalog, user authentication, and payment integration features that increased user engagement by 25%, improved transaction speed by 15%, and supported 1,000+ daily active users with zero downtime.",
       skills: [
-        "Augmented Reality",
-        "Virtual Reality",
-        "A-frame",
-        "Blender",
-        "Unity",
-        "MagicaVoxel",
-        "Metaverse",
+        "React.js",
+        "Tailwind CSS",
+        "Node.js",
       ],
     },
-    // {
-    //   id: 2,
-    //   img: newtonschoolLogo,
-    //   role: "Frontend Intern",
-    //   company: "Newton School",
-    //   date: "September 2021 - August 2022",
-    //   desc: "Worked as a Frontend Developer Intern, designing and implementing scalable UI components and responsive websites using HTML, CSS, JavaScript, Bootstrap, and Material UI. Collaborated with the design team to translate wireframes and prototypes from Figma into interactive, user-friendly web pages.",
-    //   skills: [
-    //     "HTML",
-    //     "CSS",
-    //     "Javascript",
-    //     "Bootstrap",
-    //     "Figma",
-    //     "Material UI",
-    //   ],
-    // },
   ];
   
   export const education = [
@@ -192,7 +173,7 @@ export const SkillsInfo = [
       img: glaLogo,
       school: "Indira Gadhi Delhi Technical University for Women",
       date: "Nov 2022 - May 2026(Expected)",
-      grade: "6.65 CGPA(till 6th sem)",
+      grade: "7.10 CGPA",
       desc: "I am currently pursuing a Bachelor's degree (B.Tech) in Electronics and Communication Engineering with a specialization in Artificial Intelligence at Indira Gandhi Delhi Technical University for Women. My academic focus is on building a strong foundation in programming, software development, and core computer science principles. As part of my curriculum, I have completed courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Computer Networks. Additionally, I have actively participated in various cultural and technical events, which have significantly enhanced my interpersonal skills and broadened my knowledge base.",
       degree: "Bachelor of Technology - B.Tech (Electronics and Communication with Artificial Intelligence)",
     },
